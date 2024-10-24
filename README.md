@@ -28,9 +28,10 @@ Docker image, Build e Push:
 
 ```
 cd app
-docker build -t your-dockerhub-username/go-ecs-example .
 docker login -u orbite82
-docker push your-dockerhub-username/go-ecs-example
+docker build -t orbite82/go-ecs-example .
+docker login -u orbite82
+docker push orbite82/go-ecs-example
 ```
 
 
