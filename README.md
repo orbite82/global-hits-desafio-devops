@@ -41,6 +41,17 @@ terraform apply
 ```
 terraform destroy
 ```
+## Aplicação Go
+
+# Construir e Publicar a Imagem Docker
+
+```
+cd app
+```
+
+```
+docker build -t your-dockerhub-username/go-ecs-example .
+```
 
 ## Docker image, Build e Push:
 
