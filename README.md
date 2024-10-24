@@ -24,12 +24,15 @@ Desafio Devops
     # Crie um repositório no GitHub para entregar a solução. Não se preocupe em fazer tudo. 
     # O importante é demonstrar suas habilidades. Boa sorte e divirta-se!
 
-Docker image, Build e Push
+Docker image, Build e Push:
 
+```
 cd app
 docker build -t your-dockerhub-username/go-ecs-example .
 docker login -u orbite82
 docker push your-dockerhub-username/go-ecs-example
+```
+
 
 # Tree
 
