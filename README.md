@@ -43,15 +43,8 @@ terraform destroy
 ```
 ## Aplicação Go
 
-# Construir e Publicar a Imagem Docker
+"Construir e Publicar a Imagem Docker"
 
-```
-cd app
-```
-
-```
-docker build -t orbite82/go-ecs-example .
-```
 
 ## Docker image, Build e Push:
 
