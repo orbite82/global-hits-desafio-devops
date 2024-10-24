@@ -33,8 +33,8 @@ docker push your-dockerhub-username/go-ecs-example
 
 # Tree
 
-[![Tree Image](images/tree-image.png)]
-.
+[![Tree Image](image/tree-image.png)]
+
 ├── global-hits-desafio-devops
 │   ├── alb
 │   │   ├── main.tf
