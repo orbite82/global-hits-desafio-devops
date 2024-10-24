@@ -24,7 +24,20 @@ Desafio Devops
     # Crie um repositório no GitHub para entregar a solução. Não se preocupe em fazer tudo. 
     # O importante é demonstrar suas habilidades. Boa sorte e divirta-se!
 
-Docker image, Build e Push:
+## Terraform Command
+
+```
+terraform init
+```
+
+```
+terraform plan
+```
+
+```
+terraform apply
+```
+## Docker image, Build e Push:
 
 ```
 cd app
@@ -60,3 +73,10 @@ docker push orbite82/go-ecs-example
 │       ├── provider.tf
 │       └── variables.tf
 └──  readme.md
+
+
+## Considerações Finais
+
+Este exemplo de uma aplicação em  "Go", mas você pode adaptar isso para qualquer outra tecnologia ou framework caso desejar.
+Certifique-se de que sua conta do "Docker Hub" está configurada corretamente e que você tem as permissões "IAM" adequadas para o Terraform.
+Verifique se você tem as credenciais AWS corretamente configuradas no seu ambiente.
