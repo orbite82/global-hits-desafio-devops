@@ -37,6 +37,11 @@ terraform plan
 ```
 terraform apply
 ```
+
+```
+terraform destroy
+```
+
 ## Docker image, Build e Push:
 
 ```
