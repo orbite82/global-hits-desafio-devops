@@ -1,7 +1,3 @@
-# global-hits-desafio-devops
-
-Desafio Devops
-
     | Desafio GlobalHitss |
     ---------------------------
     # Aqui está o que você precisa fazer:
@@ -30,7 +26,7 @@ docker push your-dockerhub-username/go-ecs-example
 # Tree
 
 .
-├── global-hits-desafio-devops
+├── desafio-devops
 │   ├── alb
 │   │   ├── main.tf
 │   │   ├── outputs.tf
