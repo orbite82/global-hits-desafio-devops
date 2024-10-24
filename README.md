@@ -50,7 +50,7 @@ cd app
 ```
 
 ```
-docker build -t your-dockerhub-username/go-ecs-example .
+docker build -t orbite82/go-ecs-example .
 ```
 
 ## Docker image, Build e Push:
